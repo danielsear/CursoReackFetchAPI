@@ -9,8 +9,8 @@ const infromacoesClientes = [
   },
 ];
 
-// template literos:  ``, utilizado para o navegar entender a junção de html e js
-// ${comando js}> usado para mandar comado js dentro do literos
+// Template literals:  ``, utilizado para o navegar entender a junção de html e js
+// ${comando js}> usado para mandar comado js dentro do Template literals
 
 //console.log(conteudoLinha);
 const exibeCliente = (cpf, nome) => {
