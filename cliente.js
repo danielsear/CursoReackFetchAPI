@@ -1,14 +1,14 @@
-const infromacoesClientes = [
-  {
-    cpf: 105402105,
-    nome: "daniel",
-  },
-  {
-    cpf: 10544502105,
-    nome: "sophia",
-  },
-];
+fetch("http://localhost:4000/clientes")
+  .then((response) => {
+    // console.log(response.json());
+    return response.json();
+  })
+  .then((json) => {
+    console.log(json);
+    return json;
+  });
 
+//console.log(fetch("http://localhost:4000/clientes"));
 // Template literals:  ``, utilizado para o navegar entender a junção de html e js
 // ${comando js}> usado para mandar comado js dentro do Template literals
 
