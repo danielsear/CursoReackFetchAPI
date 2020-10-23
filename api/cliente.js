@@ -26,3 +26,9 @@ const CadastrarClientes = (nome, cpf) => {
     return response.body;
   });
 };
+
+const deleteCliente = (id) => {
+  return fetch(`http://localhost:4000/clientes/cliente/${id}`, {
+    method: "DELETE",
+  });
+};
