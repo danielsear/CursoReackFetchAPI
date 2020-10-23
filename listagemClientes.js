@@ -6,6 +6,7 @@
 const removeCliente = (id) => {
   if (confirm("Deseja deletar o cliente?")) {
     deleteCliente(id);
+    document.location.reload(); //atualiza a pagina automaticamente
   }
 };
 
